@@ -7,10 +7,10 @@ Donation BTC Address: 1Ca1inQuedcKdyELCTmN8AtKTTehebY4mC
 
 INTALLATION:
 
-# go get github.com/cculianu/qrencode
-# cd $GOPATH/src/github.com/cculianu/qrencode
-# go build 
+go get github.com/cculianu/qrencode
+cd $GOPATH/src/github.com/cculianu/qrencode
+go build 
 
 RUNNING:
 
-# ./qrencode -h (for usage info)
+./qrencode -h (for usage info)
