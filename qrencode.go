@@ -29,7 +29,7 @@ Options:
   -j                     Output image in JPEG format
   -p                     Output image in PNG format (default)
   -m MARGIN_PX           The size, in pixels, of the white border [default 4]
-  -b GRID_BLOCKSIZE_PX   The size, in pixels, of each qr code grid element [default 1]
+  -b GRID_BLOCKSIZE_PX   The size, in pixels, of each qr code grid element [default 10]
 `, nil, true, "qrencode", false)
 	if err != nil {
 		log.Fatal(err)
